@@ -1,13 +1,13 @@
 import http.client
 import json, random
 
-7340360024598464046 = input("Please put the video ID: ")
+7421781199531576609 = input("Please put the video ID: ")
 
 conn = http.client.HTTPSConnection("www.tiktok.com")
 payload = json.dumps({
   "reason": 1004,
-  "object_id": 7340360024598464046,
-  "owner_id": 7340360024598464046,
+  "object_id": 7421781199531576609,
+  "owner_id": 7421781199531576609,
   "report_type": "video"
 })
 
